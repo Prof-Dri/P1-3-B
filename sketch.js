@@ -1,13 +1,13 @@
 function setup() {
-    createCanvas(600, 600);
-    background("white");
-  }
+  createCanvas(600, 600);
+  background("pink");
+}
+
+function draw() {
+  stroke("pink");
+  fill("purple");
   
-  function draw() {
-    stroke("purple");
-    fill("pink");
-    
-    if(mouseIsPressed){
-      rect(mouseX,mouseY, 40, 68);
-    }
+  if(mouseIsPressed){
+    rect(mouseX,mouseY, 40, 68);
   }
+}
